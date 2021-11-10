@@ -219,6 +219,6 @@ df$NewPrice <- df$price*30
 # - 當 country==France 的時候，該值為 T。
 # - 當 country!=France 的時候，該值為 F。
 df %>% mutate(IsFrance = ifelse(country=='France', T, F))
-df %>% mutate(IsFrance = ifelse(country=="France", T, F))
+
 ```
 
